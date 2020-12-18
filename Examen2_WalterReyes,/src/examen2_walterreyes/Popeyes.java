@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package examen2_walterreyes;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -410,7 +412,16 @@ public class Popeyes extends javax.swing.JFrame {
              DefaultComboBoxModel modelo1 = (DefaultComboBoxModel) cb_Clientes.getModel();
             
             modelo1.addElement(c);
-        
+            
+            Hilo h = new Hilo();
+            h.setTabla(jTable2);
+            
+            h.setBarra(jProgressBar1);
+            h.setCliente(c);
+            h.setAvanzar(true);
+            h.setVive(true);
+            h.start();
+            
             
             if(Integer.parseInt(Dinero.getText())==total){
                 JOptionPane.showMessageDialog(null,"Gracias por su compra");
