@@ -1,8 +1,12 @@
 
 package examen2_walterreyes;
 
+import java.io.Serializable;
 
-public class Ordenes {
+
+public class Ordenes implements Serializable {
+        private static final long SerialVersionUID=777L;
+
  private int piezas;
  private int biscuits;
  private int puré;

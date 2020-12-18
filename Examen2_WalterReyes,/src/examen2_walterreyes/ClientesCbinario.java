@@ -80,7 +80,7 @@ public class ClientesCbinario {
             }
             bw.flush();
         } catch (IOException ex) {
-               //  ex.printStackTrace();
+                ex.printStackTrace();
            
         } finally {
             try {
