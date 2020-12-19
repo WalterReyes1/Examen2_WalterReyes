@@ -232,48 +232,36 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Nombre" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
-                                  <Component id="cb_Clientes" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Dinero" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="Piezas1" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Piezas2" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Piezas" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Piezas3" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Piezas4" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                                  <Component id="Piezas5" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="js_Piezas" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="js_Biscuits" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="js_Puré" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="js_Papas" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="js_Refrescos" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="js_Pies" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                              <Component id="jProgressBar1" min="-2" pref="65" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
-                              <Component id="jScrollPane2" min="-2" pref="92" max="-2" attributes="0"/>
-                          </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Nombre" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="cb_Clientes" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Dinero" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Piezas1" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Piezas2" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Piezas" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Piezas3" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Piezas4" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Piezas5" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="js_Piezas" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="js_Biscuits" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="js_Puré" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="js_Papas" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="js_Refrescos" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="js_Pies" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="74" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jButton2" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
                           <Component id="Dinero1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
@@ -281,6 +269,15 @@
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" pref="48" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="jProgressBar1" min="-2" pref="65" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -415,7 +412,7 @@
                 <Component class="javax.swing.JTable" name="jTable2">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="3" rowCount="3">
+                      <Table columnCount="3" rowCount="0">
                         <Column editable="false" title="Numero de orden" type="java.lang.Object"/>
                         <Column editable="false" title="Elemento" type="java.lang.Object"/>
                         <Column editable="false" title="Tiempo" type="java.lang.Object"/>

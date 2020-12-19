@@ -1,0 +1,11 @@
+Popeyes;
+Nombre del cliente: 2;
+Código de orden: 45;
+Piezas de pollo: 1;
+Biscuits: 0;
+Papas: 0;
+Puré: 0;
+Frescos: 0;
+Total: 45.0;
+
+
